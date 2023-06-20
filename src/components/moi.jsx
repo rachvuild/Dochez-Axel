@@ -1,6 +1,6 @@
-export default function Fruit({ MoiInfo, onClick }) {
+export default function Moi({ MoiInfo, onClick }) {
   return (
-    <div className="info">
+    <div onClick={onClick} className="info">
       <div className="containt-h2">
         <div className="back"></div>
         <hr />
