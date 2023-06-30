@@ -23,6 +23,15 @@ p {
   padding-left: 5vw;
   width: 31vw;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-size: 3vw;
+  list-style: none;
+  text-decoration: underline;
+}
 .containt-h2 {
   margin-top: 2.5%;
 }
@@ -67,5 +76,18 @@ hr {
   width: 49vw;
   height: 46.3vh;
 
+  border-radius: 2em 0 0 0;
+  border-left: solid 0.3vw white;
+  border-top: solid 0.3vw white;
   right: 0;
+  bottom: 0;
+}
+.apropos {
+  border-radius: 2em 0 0 0;
+  margin-left: 3%;
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-top: 3%;
+  background-color: aliceblue;
+  color: black;
 }

@@ -20,15 +20,17 @@ export default function App() {
       setprojets(copieprojet);
       setlist(
         <div className="adroit">
-          <h3>À propos</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque dapibus lorem id lectus facilisis, tincidunt laoreet mi
-            rhoncus. Ut et risus blandit, euismod nulla quis, pretium sapien.
-            Vivamus sit amet semper enim. Vivamus viverra odio condimentum
-            imperdiet pulvinar. Maecenas eget elit mauris. Nullam ut mauris
-            nisi. Vivamus feugiat ultrices mattis.
-          </p>
+          <div className="apropos">
+            <h3>À propos</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque dapibus lorem id lectus facilisis, tincidunt laoreet
+              mi rhoncus. Ut et risus blandit, euismod nulla quis, pretium
+              sapien. Vivamus sit amet semper enim. Vivamus viverra odio
+              condimentum imperdiet pulvinar. Maecenas eget elit mauris. Nullam
+              ut mauris nisi. Vivamus feugiat ultrices mattis.
+            </p>
+          </div>
         </div>
       );
     }

@@ -1,3 +1,9 @@
 export default function Project({ projetInfo, onClick }) {
-  return <li>{projetInfo.nom}</li>;
+  // state (état, données)
+
+  // comportements
+  function afficheProjet(nom) {}
+  return (
+    <li onMouseOver={() => afficheProjet(projetInfo.nom)}>{projetInfo.nom}</li>
+  );
 }
